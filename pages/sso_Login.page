@@ -1,0 +1,9 @@
+<apex:page controller="sso_Controller" action="{!autoLogin}" cache="0">
+	<script>
+		if (window.location.protocol != "https:")
+			window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+	</script>
+	<apex:form >
+
+	</apex:form>
+</apex:page>

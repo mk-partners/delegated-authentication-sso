@@ -1,0 +1,5 @@
+<apex:page controller="sso_Controller" action="{!googleListenerOnLoad}" name="sso_Google" showHeader="false" cache="0" >
+	<apex:form >
+
+	</apex:form>
+</apex:page>
